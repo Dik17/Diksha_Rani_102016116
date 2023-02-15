@@ -16,12 +16,15 @@ STEPS FOR ACCOMPLISHING THE TASKS ARE:-
 
 1. We will first download the dataset from the given link “https://github.com/AnjulaMehto/Sampling\_Assignment/blob/main/Creditcard\_data.csv “
 
-1. Since the given dataset is imbalanced as maximum of the class are 0’s, we  can use one of the techniques to balance the dataset. For example, we can use the oversampling technique such as Synthetic Minority Over-sampling Technique (SMOTE) or Adaptive Synthetic Sampling (ADASYN) to balance the dataset. we can use libraries such as imbalanced-learn or SMOTE-variants to perform these techniques. 
+2. Since the given dataset is imbalanced as maximum of the class are 0’s, we  can use one of the techniques to balance the dataset. For example, we can use the oversampling technique such as Synthetic Minority Over-sampling Technique (SMOTE) or Adaptive Synthetic Sampling (ADASYN) to balance the dataset. we can use libraries such as imbalanced-learn or SMOTE-variants to perform these techniques. 
 
-1. To create five samples, we will use the sample size detection formula, to determine the sample size. Then we can use random sampling techniques such as simple random sampling, stratified sampling, or systematic sampling to create the samples.
+3. To create five samples, we will use the sample size detection formula, to determine the sample size. Then we can use random sampling techniques such as simple random sampling, stratified sampling, or systematic sampling to create the samples.
 
-1. we can choose five different sampling techniques such as simple random sampling, stratified sampling, systematic sampling, cluster sampling, or multistage sampling, based on the problem and the data. Then we can apply these techniques on five different ML models such as logistic regression, decision trees, random forests, support vector machines, or neural networks. To apply these techniques, we can use libraries such as scikit-learn or TensorFlow. 
+4. we can choose five different sampling techniques such as simple random sampling, stratified sampling, systematic sampling, cluster sampling, or multistage sampling, based on the problem and the data. Then we can apply these techniques on five different ML models such as logistic regression, decision trees, random forests, support vector machines, or neural networks. To apply these techniques, we can use libraries such as scikit-learn or TensorFlow. 
 
-1. We can split the data into training and testing sets, fit the models on the training set, and evaluate the performance on the testing set using appropriate metrics such as accuracy, precision, recall, F1-score, or ROC-AUC.
+5. We can split the data into training and testing sets, fit the models on the training set, and evaluate the performance on the testing set using appropriate metrics such as accuracy, precision, recall, F1-score, or ROC-AUC.
 
-1. To determine which sampling technique gives a higher accuracy for each model, we can modify the code by keeping track of the highest accuracy and the corresponding sampling technique for each model.
+6. To determine which sampling technique gives a higher accuracy for each model, we can modify the code by keeping track of the highest accuracy and the corresponding sampling technique for each model.
+
+
+The best accuracy comes out to be of Multi-layer Perceptron classifier (0.91).
